@@ -7,21 +7,22 @@
 </head>
 
 <body>
+  <audio id="audio" preload="auto" tabindex="0" type="audio/mpeg"></audio>
   <div id="app"></div>
-  <div class="tiles">
+  <div class="tiles" id="tiles">
     <div class="tile" data-scale="1.8" message="Welcome" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/piccolo.jpg"></div>
     <div class="tile" data-scale="1.8" message="to the" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/mushroom_view.jpg"></div>
     <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/playground.jpg"></div>
-    <div class="tile" data-scale="1.8" message="Welcome" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/grandmas.jpg"></div>
+    <div class="tile" data-scale="1.8" message="to the" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/grandmas.jpg"></div>
     <div class="tile" data-scale="1.8" message="Regenerating" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/farm_in_the_sky.jpg"></div>
     <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/docking.jpg"></div>
     <div class="tile" data-scale="1.8" message="Now" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/life_tube.jpg"></div>
-    <div class="tile" data-scale="1.8" message="Rebuild" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/fortress.jpg"></div>
+    <div class="tile" data-scale="1.8" message="Rebuilding" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/fortress.jpg"></div>
     <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/fountain.jpg"></div>
     <div class="tile" data-scale="1.8" message="Rebuild" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/midtown.jpg"></div>
     <div class="tile" data-scale="1.8" message="Reclaim" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/vinory_towers.jpg"></div>
     <div class="tile" data-scale="1.8" message="Regenerate" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/introspection.jpg"></div>
-    <div class="tile" data-scale="1.8" message="Welcome" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/sky_bay.jpg"></div>
+    <div class="tile" data-scale="1.8" message="Now" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/sky_bay.jpg"></div>
     <div class="tile" data-scale="1.8" message="Manifest" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/The_castle.jpg"></div>
     <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/shopping_district.jpg"></div>
     <div class="tile" data-scale="1.8" message="Welcome" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/uppder_and_lower.jpg"></div>
@@ -45,9 +46,6 @@
     <div class="tile" data-scale="1.8" message="Harness" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/organic_structures.jpg"></div>
     <div class="tile" data-scale="1.8" message="Full Power" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/sacred_embrace.jpg"></div>
     <div class="tile" data-scale="1.8" message="of the" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/recreation.jpg"></div>
-    <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/balamb.jpg"></div>
-    <div class="tile" data-scale="1.8" message="To The" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/water.jpg"></div>
-    <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/teather.jpg"></div>
     <div class="tile" data-scale="1.8" message="Welcome" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/mushrooms.jpg"></div>
     <div class="tile" data-scale="1.8" message="Loving" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/gateways.jpg"></div>
     <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/networks.jpg"></div>
@@ -72,9 +70,12 @@
     <div class="tile" data-scale="1.8" message="Awakening Now" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/balloons.jpg"></div>
     <div class="tile" data-scale="1.8" message="Open" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/sectorII.jpg"></div>
     <div class="tile" data-scale="1.8" message="Your Eyes" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/branches.jpg"></div>
+    <div class="tile" data-scale="1.8" message="Remember" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/balamb.jpg"></div>
+    <div class="tile" data-scale="1.8" message="Remember" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/water.jpg"></div>
+    <div class="tile" data-scale="1.8" message="Remember" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/teather.jpg"></div>
     <div class="tile" data-scale="1.8" message="Welcome" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/home.jpg"></div>
-    <div class="tile" data-scale="1.8" message="to the" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/the_library.jpg"></div>  
-    <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/rosemary.jpg"></div>  
+    <div class="tile" data-scale="1.8" message="to the" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/the_library.jpg"></div>
+    <div class="tile" data-scale="1.8" message="New World." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/rosemary.jpg"></div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type='text/javascript' src='typewriter.js'></script>
