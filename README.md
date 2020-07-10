@@ -1,4 +1,5 @@
 # Rosemary Network
+Playing with web to make a solarpunk collage.
 
 I'm having fun with javascript! I found an awesome collection
 of solar punk inspired art on 4chan. 4chan does not archive data,
@@ -10,4 +11,3 @@ encourage someone to push to this readme, giving credit where possible.
 
 Particular inspiration for this piece comes from three people, 
 ETH-master Aidono, Stuart Stretch, and Teien Vanessa.
-
