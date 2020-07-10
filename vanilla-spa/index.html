@@ -2,9 +2,18 @@
 <html>
   <head lang="en">
       <meta charset="UTF-8">
-      <title>Single Page Application</title>
+      <title>Rosemary Network</title>
+      <link rel="stylesheet" href="zoompan.css">
   </head>
+
   <body>
+
+  <div class="tiles">
+    <a href="#welcome"><div class="tile" data-scale="1.8" message="Welcome" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/piccolo.jpg"></div></a>
+      <a href="#tothe"><div class="tile" data-scale="1.8" message="to the" data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/mushroom_view.jpg"></div></a>
+      <a href="#newworld"><div class="tile" data-scale="1.8" message="new world." data-image="https://rosemary-network.s3.filebase.com/solarpunk-named/playground.jpg"></div></a>
+  </div>
+
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -12,8 +21,14 @@
     <div id="app">
 
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/zoompan.js"></script>
     <script src="js/route.js"></script>
     <script src="js/router.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
+
+<!-- Reference: -->
+<!-- https://github.com/SantiagoGdaR/vanilla-spa -->
